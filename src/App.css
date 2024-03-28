@@ -1,0 +1,58 @@
+html {
+  height: 100vh;
+}
+
+.table-style {
+  margin-top: 4rem;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 8px;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+}
+
+.new-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 45%;
+  height: 80vh;
+  background-color: white;
+  top: 20px;
+  left: 30%;
+  position: fixed;
+  z-index: 3;
+  padding: 1rem;
+  padding-inline: 15px;
+  box-shadow: 100px;
+}
+
+.delete-list {
+  width: 45%;
+  height: 35vh;
+  background-color: white;
+  top: 20px;
+  left: 30%;
+  position: fixed;
+  z-index: 3;
+  padding: 1rem;
+  padding-inline: 15px;
+  box-shadow: 100px;
+}
+
+.info-product {
+  width: 45%;
+  height: 45vh;
+  background-color: white;
+  top: 20px;
+  left: 30%;
+  position: fixed;
+  z-index: 3;
+  padding: 1rem;
+  padding-inline: 15px;
+  box-shadow: 100px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
